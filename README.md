@@ -4,7 +4,7 @@ My personal web portfolio showcasing my skills, projects, and experience as a we
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-deployed-url.com) *(Update this once deployed)*
+[View Portfolio](https://your-deployed-url.com) _(Update this once deployed)_
 
 ## 🛠️ Built With
 
@@ -26,17 +26,20 @@ My personal web portfolio showcasing my skills, projects, and experience as a we
 ## 🏃‍♂️ Running Locally
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/Ravfael/ravnov.git
    cd ravnov
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server:**
+
    ```bash
    npm run dev
    ```
@@ -70,16 +73,6 @@ This portfolio is deployed on [Vercel](https://vercel.com) for optimal performan
 2. Connect your GitHub account to Vercel
 3. Import your forked repository
 4. Deploy automatically
-
-## 📬 Contact
-
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)
-- **GitHub:** [Ravfael](https://github.com/Ravfael)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
