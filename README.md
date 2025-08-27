@@ -1,140 +1,86 @@
-# Web Developer Portfolio Template
+# Ravfael Novfito - Web Developer Portfolio
 
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/web-developer)
+My personal web portfolio showcasing my skills, projects, and experience as a web developer.
 
-## Getting Started
+## 🚀 Live Demo
 
-You have two options to get started with this template:
+[View Portfolio](https://your-deployed-url.com) *(Update this once deployed)*
 
-### Option 1: Using Git Sparse Checkout
+## 🛠️ Built With
 
-If you want to clone only this specific template:
+- **Next.js 15** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **React** - UI library
 
-```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
-cd devportfoliotemplates
-git sparse-checkout init --cone
-git sparse-checkout set web-developer-portfolio-template
-git checkout
+## 🎯 Features
+
+- ✨ Modern, responsive design
+- 🎨 Interactive animations
+- 📱 Mobile-first approach
+- ⚡ Fast loading and optimized
+- 🔍 SEO optimized
+- 🌙 Professional dark theme
+
+## 🏃‍♂️ Running Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Ravfael/ravnov.git
+   cd ravnov
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+├── app/
+│   ├── components/          # React components
+│   │   ├── HeroSection.tsx     # Landing section
+│   │   ├── ProjectsSection.tsx # Projects showcase
+│   │   ├── SkillsSection.tsx   # Technical skills
+│   │   └── ContactSection.tsx  # Contact information
+│   ├── globals.css         # Global styles
+│   ├── layout.tsx          # Root layout
+│   └── page.tsx           # Home page
+├── public/                 # Static assets
+└── package.json           # Dependencies
 ```
 
-### Option 2: Direct Download
+## 🚀 Deployment
 
-You can download this template as a ZIP file:
+This portfolio is deployed on [Vercel](https://vercel.com) for optimal performance with Next.js.
 
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of this portfolio folder: `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/web-developer-portfolio-template`
-3. Download and extract the ZIP file
+### Deploy Your Own
 
-### Running the Template
+1. Fork this repository
+2. Connect your GitHub account to Vercel
+3. Import your forked repository
+4. Deploy automatically
 
-Once you have the template:
+## 📬 Contact
 
-1. Install dependencies:
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)
+- **GitHub:** [Ravfael](https://github.com/Ravfael)
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+## 📄 License
 
-2. Run the development server:
+This project is open source and available under the [MIT License](LICENSE).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
-
-## Customization
-
-### Personal Information
-
-1. Update metadata in `app/layout.tsx`:
-
-   - Site title
-   - Description
-   - Open Graph metadata
-   - Favicon
-
-2. Modify content in `app/page.tsx`:
-
-   - Hero section
-   - About section
-   - Projects
-   - Contact information
-
-3. Replace assets:
-   - Replace images in the `public` directory
-   - Update social media icons
-   - Modify logo if needed
-
-### Styling
-
-1. Colors and Theme:
-
-   - Customize colors in `tailwind.config.js`
-   - Modify theme variables in `app/globals.css`
-
-2. Typography:
-
-   - Update font families in `tailwind.config.js`
-   - Modify text sizes and weights
-
-3. Layout:
-   - Adjust spacing and padding in component files
-   - Modify responsive breakpoints in `tailwind.config.js`
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Build Errors**
-
-   - Ensure all dependencies are installed
-   - Clear `.next` folder and node_modules
-   - Run `npm install` again
-
-2. **Styling Issues**
-
-   - Run `npm run build` to ensure TailwindCSS classes are generated
-   - Check for conflicting styles in `globals.css`
-
-3. **Image Loading**
-   - Verify images are in the correct format (PNG, JPG, WebP)
-   - Check image paths are correct
-   - Ensure images are in the `public` directory
-
-## Deployment
-
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
-
-1. Create a new GitHub repository
-
-2. Push your portfolio to GitHub
-
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
-
-## Support
-
-If you find these templates helpful, please consider:
-
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
-
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
+⭐ Star this repo if you found it helpful!
