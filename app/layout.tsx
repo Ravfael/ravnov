@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ravfael Novfito - Web Developer",
     description: "Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.",
-    creator: "@ravfael", // Replace with your actual Twitter handle
+    creator: "@Ravnov11", // Replace with your actual Twitter handle
     images: ["/og-image.jpg"],
   },
   robots: {
