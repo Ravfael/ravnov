@@ -4,7 +4,7 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="py-12 sm:py-20 px-4 bg-[#161B22] scroll-mt-20">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Let&apos;s Build Something Amazing</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Let&apos;s Build Something Amazing!</h2>
         <p className="text-sm sm:text-base text-gray-400 mb-6">Looking for a developer who can create high-performance, interactive web experiences?</p>
 
         {/* Location */}

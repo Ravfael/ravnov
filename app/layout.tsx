@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"), // Replace with your actual domain
-  title: "Ravfael - Web Developer",
+  metadataBase: new URL("https://ravnov.vercel.app/"),
+  title: "Ravfael | Web Portfolio",
   description:
     "Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ravfael - Web Developer Portfolio",
     description: "Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.",
-    url: "https://your-domain.com",
+    url: "https://ravnov.vercel.app/",
     siteName: "Ravfael - Portfolio",
     images: [
       {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ravfael Novfito - Web Developer",
     description: "Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.",
-    creator: "@Ravnov11", // Replace with your actual Twitter handle
+    creator: "@Ravnov11",
     images: ["/og-image.jpg"],
   },
   robots: {

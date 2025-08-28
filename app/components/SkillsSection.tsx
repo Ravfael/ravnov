@@ -35,7 +35,7 @@ export const SkillsSection = () => {
                 { name: "Web Performance", level: 92 },
                 { name: "CI/CD", level: 88 },
                 { name: "Docker", level: 82 },
-                { name: "AWS", level: 75 },
+                { name: "Supabase", level: 88 },
               ],
               icon: "🚀",
               color: "from-purple-500 to-purple-700",
